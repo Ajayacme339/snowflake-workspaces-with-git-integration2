@@ -3,7 +3,7 @@ CREATE SCHEMA WS_DEMO_DB.DEPLOY;
 
 CREATE OR REPLACE GIT REPOSITORY WS_DEMO_GIT_REPO
   API_INTEGRATION = WS_DEMO_GIT_INTEGRATION
-  ORIGIN = 'https://github.com/mferle/snowflake-workspaces';
+  ORIGIN = 'https://github.com/Ajayacme339/snowflake-workspaces-with-git-integration2';
 
 ALTER GIT REPOSITORY WS_DEMO_GIT_REPO FETCH;
 
